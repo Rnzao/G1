@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+    
+  
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    background-color: #F3F3F3;
+}
+nav > p  {
+     margin: 10px;
+     font-weight: bold;
+     padding-bottom: 3px;
+}
+
+.globo {
+    color: #0e75dc;
+    width: 120px;
+}
+.g1 {
+    color: #C4170C;
+    width: 30px;
+}
+.ge {
+    color: #06AA48;
+    width: 30px;
+}
+.gshow {
+   color:  #FF6700;
+   width: 70px
+}
+.gplay { 
+    color: #EE2033;
+    width: 110px;
+}
+.globo2 {
+    color: #1E4C9A;
+    width: 100px;
+
+}
+
+header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: #C4170C;
+    color: white;
+}
+
+#fim{
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
+
+#fim > p > a {
+    margin: 7px;
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+
+#fim > p >a:hover {
+    color: blue;
+}
+
+#entrar {
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px gray;
+}
+
+#titulo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#link {
+    margin: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header > #link > a{
+    color: white;
+    text-decoration: none;
+}
+
+aside {
+    border-top: 1px solid rgba(128, 128, 128, 0.54);
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #C4170C;
+    align-items: center;
+   margin-bottom: 20px;
+     
+}
+
+aside > p  {
+    color: rgba(255, 255, 255, 0.399);
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+aside > p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    width: 1190px;
+    margin: auto;
+}
+
+#noticias {
+    display: flex;
+      
+}
+
+
+
+#noticias>  #not1{
+    background-image: url(img/215456826_243290117318528_4156696577953298494_n.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    width: 50%;
+    height: 500px;
+    position: relative;
+    background-position: center center;
+    
+}
+
+
+#noticias >  #not1 >  p {
+ font-family: 'Times New Roman', Times, serif;
+ padding: 20px;
+ background-color: rgba(0, 0, 0, 0.405);
+ color: rgb(253, 253, 253);
+ font-size: 30px;
+ position: absolute;
+ top: 60%;
+}
+
+
+
